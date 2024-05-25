@@ -1,21 +1,55 @@
-MIT License
+# **Halip26's Portfolio**
 
-Copyright (c) 2022 Halip26
+**Description:**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This portfolio showcases various projects and skills of [Halip26](https://blog-halip26.thedev.id/).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+**Technologies:**
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+* HTML
+* CSS
+* JavaScript
+
+**Features:**
+
+* Project gallery
+* Project descriptions
+* Links to source code
+* Contact form
+
+**Setup:**
+
+1. Clone this repository to your computer.
+2. Open the `index.html` file in your web browser.
+
+**Usage:**
+
+* Browse the project gallery.
+* Read project descriptions.
+* Click links to source code to view project code.
+* Fill out the contact form to send a message to Halip26.
+
+**Contributing:**
+
+You are welcome to contribute to this portfolio by submitting pull requests.
+
+**License:**
+
+This portfolio is licensed under the MIT license.
+
+**Contact:**
+
+You can contact Halip26 through the contact form on this website.
+
+**Note:**
+
+* This README.md is automatically generated from the HTML code.
+* You can edit this README.md to add more information about your portfolio.
+
+**Here are some things you might want to add to your README.md:**
+
+* More information about your projects
+* Links to your website
+* Links to your social media accounts
+* A list of your skills and experience
+* Your career objective statement
