@@ -1,231 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@halip26" />
+    <meta name="twitter:creator" content="@halip26" />
+    <meta name="twitter:title" content="My Portfolio | Halipuddin" />
+    <meta
+      name="twitter:description"
+      content="Hi, I'm Halipuddin & I'm a Front-end Engineer"
+    />
+    <meta
+      name="twitter:image"
+      content="https://portfolio-halip26.vercel.app/assets/img/portfolio-halip26.vercel.png"
+    />
+    <meta name="twitter:url" content="https://portfolio-halip26.vercel.app/" />
+    <meta property="og:title" content="My Portfolio | Halipuddin" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="My Portfolio | Halipuddin" />
+    <meta
+      property="og:description"
+      content="Hi, I'm Halipuddin & I'm a Front-end Engineer"
+    />
+    <meta
+      property="og:image"
+      content="https://portfolio-halip26.vercel.app/assets/img/portfolio-halip26.vercel.png"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@halip26">
-  <meta name="twitter:creator" content="@halip26">
-  <meta name="twitter:title" content="My Portfolio | Halipuddin">
-  <meta name="twitter:description" content="Hi, I'm Halipuddin & I'm a Front-end Engineer">
-  <meta name="twitter:image" content="https://portfolio-halip26.vercel.app/assets/img/portfolio-halip26.vercel.png">
-  <meta name="twitter:url" content="https://portfolio-halip26.vercel.app/">
-  <meta property="og:title" content="My Portfolio | Halipuddin">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="My Portfolio | Halipuddin">
-  <meta property="og:description" content="Hi, I'm Halipuddin & I'm a Front-end Engineer">
-  <meta property="og:image" content="https://portfolio-halip26.vercel.app/assets/img/portfolio-halip26.vercel.png">
+    <!--Eksternal CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-  <!--Eksternal CSS-->
-  <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="assets/img/icon.jpg" />
+    <title>Portfolio Web - Halip26</title>
+  </head>
 
-  <!-- =====BOX ICONS===== -->
-  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
-  <link rel="icon" type="image/png" href="assets/img/icon.jpg">
-  <title>Portfolio Web - Halip26</title>
-
-</head>
-
-<body>
-  <!--===== HEADER =====-->
-  <header class="l-header">
-    <nav class="nav bd-grid">
-      <div>
-        <a href="#" class="nav__logo">My Portfolio | Halipuddin</a>
-      </div>
-
-      <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#home" class="nav__link active">Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#skills" class="nav__link">Skills</a>
-          </li>
-          <li class="nav__item">
-            <a href="#work" class="nav__link">Projects</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="nav__toggle" id="nav-toggle">
-        <i class="bx bx-menu"></i>
-      </div>
-    </nav>
-  </header>
-
-  <main class="l-main">
-    <!--===== HOME =====-->
-    <section class="home bd-grid" id="home">
-      <div class="home__data">
-        <h1 class="home__title">
-          Hi,<br />I'm <span class="home__title-color">Halipuddin</span> & I'm a <br />
-          Front-end Engineer
-        </h1>
-        <a href="https://halip26.github.io/docs/cv-halipuddin-baru.pdf" class="button">Download CV</a>
-      </div>
-
-      <div class="home__social">
-        <a href="https://instagram.com/halip26/" target="_blank" class="home__social-icon"><i
-            class="bx bxl-instagram"></i></a>
-        <a href="https://github.com/Halip26/" target="_blank" class="home__social-icon"><i
-            class="bx bxl-github"></i></a>
-        <a href="https://instagram.com/halip26/" target="_blank" class="home__social-icon"><i
-            class="bx bxl-twitter"></i></a>
-      </div>
-
-      <div class="home__img">
-        <!-- <img src="assets/img/prof1.jpeg" alt="" /> -->
-      </div>
-    </section>
-
-    <!--===== ABOUT =====-->
-    <section class="about section" id="about">
-      <h2 class="section-title">About</h2>
-
-      <div class="about__container bd-grid">
-        <div class="about__img">
-          <img src="assets/img/Halip26_icon.png" alt="profil.jpg" />
-        </div>
-
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
         <div>
-          <h2 class="about__subtitle">I'am Halipuddin</h2>
-          <p class="about__text">
-            I am a Front-end engineer who is currently working at the tech company, I live in
-            the city of Makassar, South Sulawesi. Being a front-end engineer or software engineer is my
-            dream. Currently, I am focused on learning programming languages
-            to achieve my desired goals.
-          </p>
+          <a href="#" class="nav__logo">My Portfolio | Halipuddin</a>
         </div>
-      </div>
-    </section>
 
-    <!--===== SKILLS =====-->
-    <section class="skills section" id="skills">
-      <h2 class="section-title">Skills</h2>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
-      <div class="skills__container bd-grid">
-        <div>
-          <h2 class="skills__subtitle">Profesional Skills</h2>
-          <p class="skills__text">
-            Of course, to achieve this goal, I have skills that I will
-            continue to develop so that my dreams can be fulfilled
-          </p>
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class="bx skills__icon"></i>
-              <span class="skills__name">HTML, CSS, Javascript</span>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'm <span class="home__title-color">Halipuddin</span> & I'm
+            a <br />
+            Front-end Engineer
+          </h1>
+          <a
+            href="https://halip26.github.io/docs/cv-halipuddin-baru.pdf"
+            class="button"
+            >Download CV</a
+          >
+        </div>
+
+        <div class="home__social">
+          <a
+            href="https://instagram.com/halip26/"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/Halip26/"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://instagram.com/halip26/"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <!-- <img src="assets/img/prof1.jpeg" alt="" /> -->
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/Halip26_icon.png" alt="profil.jpg" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Halipuddin</h2>
+            <p class="about__text">
+              I am a Front-end engineer who is currently working at the tech
+              company, I live in the city of Makassar, South Sulawesi. Being a
+              front-end engineer or software engineer is my dream. Currently, I
+              am focused on learning programming languages to achieve my desired
+              goals.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              Of course, to achieve this goal, I have skills that I will
+              continue to develop so that my dreams can be fulfilled
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx skills__icon"></i>
+                <span class="skills__name">HTML, CSS, Javascript</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx skills__icon"></i>
+                <span class="skills__name">React JS</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx skills__icon"></i>
+                <span class="skills__name">PHP, Laravel Framework</span>
+              </div>
             </div>
           </div>
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class="bx skills__icon"></i>
-              <span class="skills__name">React JS</span>
-            </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="work__container bd-grid">
+          <div class="work__img">
+            <a href="https://ninime.vercel.app/" target="_blank">
+              <img src="assets/img/ninime.png" title="Web Anime Downloader" />
+            </a>
           </div>
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class="bx skills__icon"></i>
-              <span class="skills__name">PHP, Laravel Framework</span>
-            </div>
+
+          <div class="work__img">
+            <a href="https://ninime-github-io.vercel.app/" target="_blank">
+              <img src="assets/img/ninime2.png" title="Web Anime Streaming" />
+            </a>
           </div>
+
+          <div class="work__img">
+            <a href="http://si-ajar.herokuapp.com/" target="_blank">
+              <img src="assets/img/si-ajar.png" title="Sistem Ajar Online" />
+            </a>
+          </div>
+
+          <div class="work__img">
+            <a href="http://api-barbers.unaux.com/" target="_blank">
+              <img
+                src="assets/img/barbershop.png"
+                title="Sistem Booking Barbershop Online"
+              />
+            </a>
+          </div>
+
+          <!-- <div class="work__img"> -->
+          <h3 class="text-center">
+            Show More
+            <a
+              href="https://github.com/Halip26?tab=repositories"
+              target="_blank"
+              >Projects</a
+            >
+          </h3>
+          <!-- </div> -->
         </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="contact__container bd-grid">
+          <form method="POST" class="contact__form" id="contact-form">
+            <input
+              type="text"
+              placeholder="Name"
+              class="contact__input"
+              id="name"
+              name="name"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              class="contact__input"
+              id="email"
+              name="email"
+            />
+            <input
+              type="text"
+              placeholder="Subject"
+              class="contact__input"
+              id="subject"
+              name="subject"
+            />
+            <textarea
+              type="text"
+              name="message"
+              placeholder="Pesan..."
+              id="message"
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input type="submit" value="Send" class="contact__button button" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 191">
+      <path
+        fill="var(--second-color)"
+        fill-opacity="10"
+        d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,80C672,64,768,64,864,96C960,128,1056,192,1152,186.7C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Halipuddin</p>
+      <div class="footer__social">
+        <a href="https://github.com/Halip26/" class="footer__icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://instagram.com/halip26/" class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://twitter.com/halip26/" class="footer__icon"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a href="https://facebook.com/halip26/" class="footer__icon"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/halipuddin" class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          href="https://open.spotify.com/user/halipuddin26"
+          class="footer__icon"
+          ><i class="bx bxl-spotify"></i
+        ></a>
+        <a
+          href="https://wa.me/+6285396358995?text=Hi%20Halipuddin,%20I'm%20interested%20in%20your%20services%20"
+          class="footer__icon"
+          ><i class="bx bxl-whatsapp"></i
+        ></a>
       </div>
-    </section>
+      <p>
+        &#169; <span id="currentYear"></span>
+        <a target="_blank" href="https://blog-halip26.thedev.id/"
+          >Halip's Blog</a
+        >
+        | All rights reserved
+      </p>
+    </footer>
 
-    <!--===== WORK =====-->
-    <section class="work section" id="work">
-      <h2 class="section-title">Projects</h2>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-      <div class="work__container bd-grid">
-        <div class="work__img">
-          <a href="https://ninime.vercel.app/" target="_blank">
-            <img src="assets/img/ninime.png" title="Web Anime Downloader" />
-          </a>
-        </div>
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
 
-        <div class="work__img">
-          <a href="https://ninime-github-io.vercel.app/" target="_blank">
-            <img src="assets/img/ninime2.png" title="Web Anime Streaming" />
-          </a>
-        </div>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
 
-        <div class="work__img">
-          <a href="http://si-ajar.herokuapp.com/" target="_blank">
-            <img src="assets/img/si-ajar.png" title="Sistem Ajar Online" />
-          </a>
-        </div>
-
-        <div class="work__img">
-          <a href="http://api-barbers.unaux.com/" target="_blank">
-            <img src="assets/img/barbershop.png" title="Sistem Booking Barbershop Online" />
-          </a>
-        </div>
-
-        <!-- <div class="work__img"> -->
-        <h3 class="text-center">Show More <a href="https://github.com/Halip26?tab=repositories"
-            target="_blank">Projects</a></h3>
-        <!-- </div> -->
-      </div>
-    </section>
-
-    <!--===== CONTACT =====-->
-    <section class="contact section" id="contact">
-      <h2 class="section-title">Contact Us</h2>
-
-      <div class="contact__container bd-grid">
-        <form method="POST" class="contact__form" id="contact-form">
-          <input type="text" placeholder="Name" class="contact__input" id="name" name="name" />
-          <input type="email" placeholder="Email" class="contact__input" id="email" name="email" />
-          <input type="text" placeholder="Subject" class="contact__input" id="subject" name="subject" />
-          <textarea type="text" name="message" placeholder="Pesan..." id="message" cols="0" rows="10"
-            class="contact__input"></textarea>
-          <input type="submit" value="Send" class="contact__button button" />
-        </form>
-      </div>
-    </section>
-  </main>
-  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 191">
-    <path fill="var(--second-color)" fill-opacity="10"
-      d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,80C672,64,768,64,864,96C960,128,1056,192,1152,186.7C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-    </path>
-  </svg>
-  <!--===== FOOTER =====-->
-  <footer class="footer">
-    <p class="footer__title">Halipuddin</p>
-    <div class="footer__social">
-      <a href="https://github.com/Halip26/" class="footer__icon"><i class="bx bxl-github"></i></a>
-      <a href="https://instagram.com/halip26/" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-      <a href="https://twitter.com/halip26/" class="footer__icon"><i class="bx bxl-twitter"></i></a>
-      <a href="https://facebook.com/halip26/" class="footer__icon"><i class="bx bxl-facebook"></i></a>
-      <a href="https://www.linkedin.com/in/halipuddin" class="footer__icon"><i
-          class="bx bxl-linkedin"></i></a>
-      <a href="https://open.spotify.com/user/21irjmembyj2thox2pg7wwsxi" class="footer__icon"><i
-          class="bx bxl-spotify"></i></a>
-      <a href="https://wa.me/6285396358995/" class="footer__icon"><i class="bx bxl-whatsapp"></i></a>
-    </div>
-    <p>&#169; 2022 <a target="_blank" href="https://blog-halip26.vercel.app">Halip's Blog</a> | All rights reserved</p>
-  </footer>
-
-  <!--===== SCROLL REVEAL =====-->
-  <script src="https://unpkg.com/scrollreveal"></script>
-
-  <!-- Jquery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-  <!--===== MAIN JS =====-->
-  <script src="assets/js/main.js"></script>
-
-  <!-- sweetalert -->
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
-</body>
-
+    <!-- sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
+  </body>
 </html>
